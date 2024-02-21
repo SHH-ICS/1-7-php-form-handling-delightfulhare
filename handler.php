@@ -8,12 +8,7 @@
   </head>
 
   <body>
-    <form action="welcome.php" method="post">
-      Name: <input type="text" name="userName"> <br />
-      Email: <input type="text" name="email"> <br />
-      <input type="submit">
-    </form>
-    <?php
+  <?php
     $userName = "";
     if ( isset( $_POST['userName'] ) ){
       $userName = $_POST['userName'];

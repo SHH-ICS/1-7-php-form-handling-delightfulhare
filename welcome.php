@@ -13,7 +13,7 @@
     if ( isset( $_POST['userName'] ) ){
       $userName = $_POST['userName'];
     }
-    echo "<h1>Welcome ".$userName."!</h1>\n";
+    echo "<h1>Welcome ".$_POST["userName"]."!</h1>\n";
     ?>
     
   </body>

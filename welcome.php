@@ -8,7 +8,7 @@
   </head>
 
   <body>
-  
+    Welcome <?php echo $_GET["userName"]; ?>
     
   </body>
   

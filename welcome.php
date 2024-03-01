@@ -8,7 +8,13 @@
   </head>
 
   <body>
-    Welcome <?php echo $_GET["userName"]; ?>
+    <?php
+    $userName = "";
+    if ( isset( $_POST['userName'] ) ){
+      $userName = $_POST['userName'];
+    }
+    echo "<h1>Welcome ".$userName."!</h1>\n";
+  ?>
     
   </body>
   

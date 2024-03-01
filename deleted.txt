@@ -1,7 +1,1 @@
-<?php
-    $userName = "";
-    if ( isset( $_POST['userName'] ) ){
-      $userName = $_POST['userName'];
-    }
-    echo "<h1>Welcome ".$userName."!</h1>\n";
-  ?>
+Welcome <?php echo $_GET["userName"]; ?>
